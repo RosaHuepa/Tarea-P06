@@ -26,7 +26,7 @@ if ( $link->query($sql) )
 }
 else
 {
-	echo 'El Producto no pudo ser insertado ';
+	echo 'El Producto no pudo ser insertado :( ';
 }
 
 $link->close();
