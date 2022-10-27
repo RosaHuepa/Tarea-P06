@@ -35,10 +35,10 @@ if ($nombre != "" && $marca != "" && $modelo != "" && $precio != "" && $detalles
         
         echo '</p>';
     } else {
-        echo '<br><strong>UN ELEMENTO O VARIOS ESTAN EN UN FORMATO INCORRECTO. FAVOR DE CORREGIR ESOS DATOS</strong>';
+        echo '<br><strong>UN ELEMENTO  ESTAN EN  FORMATO INCORRECTO. </strong>';
     }
 } else {
-    echo '<br><strong>ALGUN DATO REQUERIDO ESTA EN BLANCO. FAVOR DE LLENAR TODO CORRECTAMENTE</strong>';
+    echo '<br><strong>ALGUN DATO NO SE INGRESO, ESTA EN BLANCO </strong>';
 }
 
 $link->close();
