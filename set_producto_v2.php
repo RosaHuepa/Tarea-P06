@@ -12,7 +12,7 @@ $imagen   = $_POST["imagen"];
 $eliminado = 0;
 
 /** SE CREA EL OBJETO DE CONEXION */
-@$link = new mysqli('localhost', 'root', '12345678a', 'marketzone');
+@$link = new mysqli('localhost', 'root', 'Ro.2106.', 'marketzone');
 
 /** comprobar la conexión */
 if ($link->connect_errno) {
@@ -31,7 +31,7 @@ if ($nombre != "" && $marca != "" && $modelo != "" && $precio != "" && $detalles
         echo '<br><br><strong>PRECIO: </strong>' . $precio;
         echo '<br><br><strong>DETALLES: </strong>' . $detalles;
         echo '<br><br><strong>UNIDADES: </strong>' . $unidades;
-        echo '<br><br><strong>IMAGEN: </strong><br> <img src=http://localhost/htdocs/tecnologiasweb/p05-base/' . $imagen . ' width="200px" height="200px" />';
+        echo '<br><br><strong>IMAGEN: </strong><br> <img src=http://localhost/tecnologiasweb/practicas/p05/' . $imagen . ' width="200px" height="200px" />';
         
         echo '</p>';
     } else {
